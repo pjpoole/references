@@ -6,63 +6,70 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 
 
 ## General
-* [Tutorialspoint](tutorials_point), a hub for many different resources
+* [Tutorialspoint][tutorials_point], a hub for many different resources
 
 
 
 ## Languages
 
 ### Ruby (version 2.1.5)
-* [Ruby Standard Library](ruby_stdlib)
-* [Ruby Core API](ruby_core)
+* [Ruby Standard Library][ruby_stdlib]
+* [Ruby Core API][ruby_core]
 * **Classes**
-  * [Object](ruby_object): everything in ruby is an object.
-  * [String](ruby_string)
-  * [Enumerable](ruby_enumerable): a common mixin for enumerable objects.
-  * [Array](ruby_array)
-  * [Hash](ruby_hash)
-  * [File](ruby_file) / [IO](ruby_io)
-* [Ruby doc](ruby_doc), a central place for finding docs for `.gem`s
-* [Ruby docs](ruby_docs), a searchable hub for ruby and rails API
+  * [Object][ruby_object]: everything in ruby is an object.
+  * [String][ruby_string]
+  * [Enumerable][ruby_enumerable]: a common mixin for enumerable objects.
+  * [Array][ruby_array]
+  * [Hash][ruby_hash]
+  * [File][ruby_file] / [IO][ruby_io]
+* [Ruby doc][ruby_doc], a central place for finding `.gem`s and their associated documentation
+* [Ruby docs][ruby_docs], a searchable hub for ruby and rails API
 
 ### Testing (Rspec)
-* [Rspec home](rspec_home)
-* [Rspec matchers](rspec_matchers)
-* [Rspec core](rspec_core)
-* [Rspec expectations](rspec_expectations)
-* [Rspec mocks](rspec_mocks)
+* [Rspec home][rspec_home]
+* [Rspec matchers][rspec_matchers]
+* [Rspec core][rspec_core]
+* [Rspec expectations][rspec_expectations]
+* [Rspec mocks][rspec_mocks]
+* [Rspec and Rails][rspec_rails]
 
 
 
 ## Web
 
 ### HTML
-* [HTML 5 Semantics Tags](html5)
-* [HTML tags](html_tags)
+* [HTML 5 Semantics Tags][html5]
+* [HTML elements][html_elements]
+* [HTML tags][html_tags]
 
 ### CSS
-* [CSS 2.1 Property Table](css2_1)
-* [CSS 3](css3)
-* [CSS Specificity](css_specificity) calculator
+* [CSS 2.1 Property Table][css2_1]
+* [CSS 3][css3]
+* [CSS Specificity][css_specificity] calculator
+* [SASS][sass]
 
 ### JavaScript
-* [Javascript Hub](javascript_main)
-* [Underscore](underscore)
+* [Javascript Hub][javascript_main]
+* [Underscore][underscore]
 
 ### JQuery
-* [JQuery API](jquery)
-* [JQuery UI API](jquery_ui)
+* [JQuery API][jquery]
+* [JQuery UI API][jquery_ui]
 
 ### SQL
-* [Use the Index, Luke](index_luke)
+* [Use the Index, Luke][index_luke]
+
+### HTTP
+* [HTTP methods][http_methods]
 
 
 
 ## Frameworks
 
 ### Rails
-* [Rails API](rails_api)
-* [Rails Guides](rails_guides), click the dropdown on the top right for more.
+* [Rails API][rails_api]
+* [Rails Guides][rails_guides], click the dropdown on the top right for more.
+  * There are a couple that are really good and merit reading all the way through.
 
 ### Canvas
 
@@ -72,31 +79,43 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * Homebrew
 * rbenv
 * Git
-  * [Pro Git](pro_git)
-  * [Git Ref](git_ref)
-  * [Gitready](gitready), a reference of neat tasks/commands
-  * [Git cheatsheet](git_cheatsheet), a really neat visual git reference
-  * [Git immersion](git_immersion)
+  * [Pro Git][pro_git]
+  * [Git Ref][git_ref]
+  * [Gitready][gitready], a reference of neat tasks/commands
+  * [Git cheatsheet][git_cheatsheet], a really neat visual git reference
+  * [Git immersion][git_immersion]
 * rspec
-  * [Guard](rspec_guard)
-* [Postgres](postgres)
-* [SQLite](sqlite)
-  * [SQLite Command Line](sqlite_cli)
-  * [SQL as understood by SQLite](sqlite_lang)
-* [Foreigner](foreigner), for adding foreign key constraints to rails
+  * [Guard][rspec_guard]
+* SQL
+  * [Postgres][postgres]
+  * [SQLite][sqlite]
+    * [SQLite Command Line][sqlite_cli]
+    * [SQL as understood by SQLite][sqlite_lang]
+* Rails
+  * [Foreigner][foreigner], for adding foreign key constraints to rails
+  * [Draper][draper], for decorating model objects
+* HTTP
+  * [Postman][postman], a chrome extension for making HTTP requests
+* HTML
+  * [The SASS Way][sass_way], readings about using SASS
+* [Bootstrap][bootstrap]
 
 
 ## Style
-* [Ruby style](ruby_style)
-* [Better specs with Rspec](better_specs)
-* [How I write SQL](sql_style)
+* [Ruby style][ruby_style]
+* [Better specs with Rspec][better_specs]
+* [How I write SQL][sql_style]
+* Rails conventions: model, view: singular; database, controller: plural
 
 
 
 ## Environment
 
 ### Shell
-* [readline](readline)
+* [readline][readline]
+* bash
+* bash scripting
+* unix shell
 
 
 
@@ -104,27 +123,36 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 
 ### General/Math
 * Project Euler
+* Coding challenges (several)
 
 ### Language specific
 * Dr Eval, JS specific game
+* [SQL zoo][sql_zoo]
 
 ### Tools
-* [Git "game"](git_game)
-* [SQL zoo](sql_zoo)
+* [Git "game"][git_game]
 
 ### Books
 * Code Complete
 * Design Patterns
 
+
+
 ## Snippets
 * Git reset authorship:  
 `git filter-branch -f --env-filter "GIT_AUTHOR_NAME='your_full_name'; GIT_AUTHOR_EMAIL='your_email'; GIT_COMMITTER_NAME='your_full_name'; GIT_COMMITTER_EMAIL='your_email';" HEAD`
+* create new rails project:
+`rails new project_name --database postgresql`
+* rails initial config (can probably be automated)
+  * database.yml
+  * Gemfile
 
 
 
 [jquery]: http://api.jquery.com
 [jquery_ui]: http://api.jqueryui.com
 [html5]: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list
+[html_elements]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 [html_tags]: https://simon.html5.org/html-elements
 [css2_1]: http://www.w3.org/TR/CSS21/propidx.html
 [css3]: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
@@ -168,3 +196,10 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 [sqlite_cli]: http://www.sqlite.org/cli.html
 [sqlite_lang]: http://www.sqlite.org/lang.html
 [foreigner]: https://github.com/matthuhiggins/foreigner
+[http_methods]: http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html
+[postman]: https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en
+[draper]: https://github.com/drapergem/draper
+[bootstrap]: http://getbootstrap.com/
+[sass_way]: http://thesassway.com/
+[sass]: http://sass-lang.com/guide
+[rspec_rails]: http://everydayrails.com/2012/03/12/testing-series-rspec-setup.html

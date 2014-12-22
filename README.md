@@ -1,3 +1,5 @@
+<!-- Up through W5D1 -->
+
 # References
 A repo of subject-collected references that I find useful.
 
@@ -32,6 +34,9 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [Rspec expectations][rspec_expectations]
 * [Rspec mocks][rspec_mocks]
 * [Rspec and Rails][rspec_rails]
+* Capybara
+* FactoryGirl
+* Faker
 
 
 
@@ -48,6 +53,7 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [CSS Specificity][css_specificity] calculator
 * [SASS][sass]
 
+
 ### JavaScript
 * [Javascript Hub][javascript_main]
 * [Underscore][underscore]
@@ -55,6 +61,12 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 ### JQuery
 * [JQuery API][jquery]
 * [JQuery UI API][jquery_ui]
+
+### Backbone
+* Backbone API
+* Backbone annotated source
+* Underscore
+
 
 ### SQL
 * [Use the Index, Luke][index_luke]
@@ -70,6 +82,7 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [Rails API][rails_api]
 * [Rails Guides][rails_guides], click the dropdown on the top right for more.
   * There are a couple that are really good and merit reading all the way through.
+* [Rails status codes][rails_status]
 
 ### Canvas
 
@@ -203,3 +216,4 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 [sass_way]: http://thesassway.com/
 [sass]: http://sass-lang.com/guide
 [rspec_rails]: http://everydayrails.com/2012/03/12/testing-series-rspec-setup.html
+[rails_status]: http://guides.rubyonrails.org/layouts_and_rendering.html#the-status-option

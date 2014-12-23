@@ -34,9 +34,9 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [Rspec expectations][rspec_expectations]
 * [Rspec mocks][rspec_mocks]
 * [Rspec and Rails][rspec_rails]
-* Capybara
-* FactoryGirl
-* Faker
+* [Capybara][capybara]
+* [FactoryGirl][factory_girl]
+* [Faker][faker]
 
 
 
@@ -63,9 +63,9 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [JQuery UI API][jquery_ui]
 
 ### Backbone
-* Backbone API
-* Backbone annotated source
-* Underscore
+* [Backbone API][backbone_api]
+* [Backbone annotated source][backbone_source]
+* [Underscore API][underscore_api]
 
 
 ### SQL
@@ -89,8 +89,8 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 
 
 ## Tools
-* Homebrew
-* rbenv
+* [Homebrew][homebrew]
+* [rbenv][]
 * Git
   * [Pro Git][pro_git]
   * [Git Ref][git_ref]
@@ -116,7 +116,7 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 
 ## Style
 * [Ruby style][ruby_style]
-* [Better specs with Rspec][better_specs]
+* [Better specs with Rspec][better_spec]
 * [How I write SQL][sql_style]
 * Rails conventions: model, view: singular; database, controller: plural
 
@@ -135,12 +135,13 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 ## Practice
 
 ### General/Math
-* Project Euler
+* [Project Euler][project_euler]
 * Coding challenges (several)
 
 ### Language specific
-* Dr Eval, JS specific game
+* [Dr Eval][dr_eval], JS specific game
 * [SQL zoo][sql_zoo]
+* [Ruby Warrior][ruby_warrior], AI practice in ruby
 
 ### Tools
 * [Git "game"][git_game]
@@ -217,3 +218,14 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 [sass]: http://sass-lang.com/guide
 [rspec_rails]: http://everydayrails.com/2012/03/12/testing-series-rspec-setup.html
 [rails_status]: http://guides.rubyonrails.org/layouts_and_rendering.html#the-status-option
+[capybara]: https://github.com/jnicklas/capybara
+[factory_girl]: https://github.com/thoughtbot/factory_girl
+[faker]: https://github.com/stympy/faker
+[backbone_api]: http://backbonejs.org
+[backbone_source]: http://backbonejs.org/docs/backbone.html
+[underscore_api]: http://underscorejs.org
+[dr_eval]: http://alexnisnevich.github.io/untrusted/
+[ruby_warrior]: https://www.bloc.io/ruby-warrior/
+[project_euler]: https://projecteuler.net
+[homebrew]: http://brew.sh
+[rbenv]: https://github.com/sstephenson/rbenv

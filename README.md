@@ -1,4 +1,4 @@
-<!-- Up through W5D1 -->
+<!-- Up through W7D1 -->
 
 # References
 A repo of subject-collected references that I find useful.
@@ -149,7 +149,7 @@ Subhead|Topics
 
 
 
-## <a name="practice"></a>Practice
+## <a name="practice"></a>Practice/Inspiration
 
 ### General/Math
 * [Project Euler][project_euler]
@@ -165,10 +165,32 @@ Subhead|Topics
 ### Tools
 * [Git "game"][git_game]
 
+### Pinterest
+* [CSS Zen Garden][css_zen]
+
 ### Books
-* Code Complete
-* Design Patterns
-* Effective Javascript
+* Course books
+  * [Learning SQL][learning-sql] by Alan Beaulieu
+  * [Effective JavaScript][effective-javascript] by David Herman
+  * [Backbone.js on Rails][backbone-on-rails] by thoughtbot
+
+* General
+  * [Code Complete][code_complete]
+  * [Design Patterns][design_patterns]
+  * The Algorithm Design Manual
+  * The Art of Computer Programming
+
+* Software Engineering/Operations
+  * [The Mythical Man-Month][man_month]
+
+* Professional/job search
+  * What Color is Your Parachute?
+
+* Other
+  * [Butterick's Practical Typography][butterick]
+  * Dreaming in Code
+  * Dataclysm
+
 
 
 
@@ -264,3 +286,11 @@ Subhead|Topics
 [canvas_hub]: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 [github_markdown]: https://help.github.com/articles/github-flavored-markdown/
 [github_advanced]: https://guides.github.com/features/mastering-markdown/
+[css_zen]: http://csszengarden.com
+[learning-sql]: http://www.amazon.com/Learning-SQL-Alan-Beaulieu/dp/0596520832
+[backbone-on-rails]: https://learn.thoughtbot.com/products/1-backbone-js-on-rails
+[effective-javascript]: http://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182
+[code_complete]: http://www.cc2e.com/Default.aspx
+[design_patterns]: https://en.wikipedia.org/wiki/Design_Patterns
+[man_month]: https://en.wikipedia.org/wiki/The_Mythical_Man-Month
+[butterick]: http://practicaltypography.com

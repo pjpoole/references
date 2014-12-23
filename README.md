@@ -27,16 +27,17 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [Ruby doc][ruby_doc], a central place for finding `.gem`s and their associated documentation
 * [Ruby docs][ruby_docs], a searchable hub for ruby and rails API
 
-### Testing (Rspec)
-* [Rspec home][rspec_home]
-* [Rspec matchers][rspec_matchers]
-* [Rspec core][rspec_core]
-* [Rspec expectations][rspec_expectations]
-* [Rspec mocks][rspec_mocks]
-* [Rspec and Rails][rspec_rails]
-* [Capybara][capybara]
+### Testing
+* **Rspec**
+  * [home][rspec_home]
+  * [matchers][rspec_matchers]
+  * [core][rspec_core]
+  * [expectations][rspec_expectations]
+  * [mocks][rspec_mocks]
+  * [...and Rails][rspec_rails]
+* [Capybara API][capybara_api]
 * [FactoryGirl][factory_girl]
-* [Faker][faker]
+* [Faker API][faker_api]
 
 
 
@@ -46,17 +47,18 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [HTML 5 Semantics Tags][html5]
 * [HTML elements][html_elements]
 * [HTML tags][html_tags]
+* [DOM events][dom_events]
 
 ### CSS
 * [CSS 2.1 Property Table][css2_1]
-* [CSS 3][css3]
-* [CSS Specificity][css_specificity] calculator
+* [CSS 3][css3], but you should probably stick with 2.1 mostly
+* [CSS Specificity Calculator][css_specificity]
 * [SASS][sass]
 
 
 ### JavaScript
-* [Javascript Hub][javascript_main]
-* [Underscore][underscore]
+* [Javascript Hub][javascript_main] on MDN
+* [Underscore][underscore], utility functions for JS
 
 ### JQuery
 * [JQuery API][jquery]
@@ -69,10 +71,10 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 
 
 ### SQL
-* [Use the Index, Luke][index_luke]
+* [Use the Index, Luke][index_luke], how to make effective use of SQL indices
 
 ### HTTP
-* [HTTP methods][http_methods]
+* [HTTP methods][http_methods]: GET, POST, PATCH, etc.
 
 
 
@@ -82,23 +84,27 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [Rails API][rails_api]
 * [Rails Guides][rails_guides], click the dropdown on the top right for more.
   * There are a couple that are really good and merit reading all the way through.
-* [Rails status codes][rails_status]
+* [Rails status codes][rails_status], semantic HTTP Status Codes
 
 ### Canvas
-
+* [Canvas hub][canvas_hub], MDN
+* [Intro to Canvas][canvas_book], an excellent book
 
 
 ## Tools
-* [Homebrew][homebrew]
-* [rbenv][]
+* [Homebrew][homebrew], painless compilation and updates
+* [rbenv][], ruby environment manager
 * Git
   * [Pro Git][pro_git]
   * [Git Ref][git_ref]
   * [Gitready][gitready], a reference of neat tasks/commands
   * [Git cheatsheet][git_cheatsheet], a really neat visual git reference
   * [Git immersion][git_immersion]
-* rspec
+* rspec/testing
   * [Guard][rspec_guard]
+  * [Faker][faker]
+  * [Capybara][capybara]
+  * [Shoulda matchers][shoulda]
 * SQL
   * [Postgres][postgres]
   * [SQLite][sqlite]
@@ -112,6 +118,9 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * HTML
   * [The SASS Way][sass_way], readings about using SASS
 * [Bootstrap][bootstrap]
+* [Chrome dev tools][chrome_dev]
+
+
 
 
 ## Style
@@ -119,6 +128,8 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [Better specs with Rspec][better_spec]
 * [How I write SQL][sql_style]
 * Rails conventions: model, view: singular; database, controller: plural
+* [Crockford JavaScript][crockford]
+* [JQuery Style Guide][jquery_style]
 
 
 
@@ -126,8 +137,8 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 
 ### Shell
 * [readline][readline]
-* bash
-* bash scripting
+* [bash programming][bash_prog]
+* [advanced bash][bash_adv]
 * unix shell
 
 
@@ -142,6 +153,8 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [Dr Eval][dr_eval], JS specific game
 * [SQL zoo][sql_zoo]
 * [Ruby Warrior][ruby_warrior], AI practice in ruby
+* [CSS Diner][css_diner], selector practice
+* [jQuery Fundamentals][jquery_fun]
 
 ### Tools
 * [Git "game"][git_game]
@@ -149,6 +162,7 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 ### Books
 * Code Complete
 * Design Patterns
+* Effective Javascript
 
 
 
@@ -229,3 +243,16 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 [project_euler]: https://projecteuler.net
 [homebrew]: http://brew.sh
 [rbenv]: https://github.com/sstephenson/rbenv
+[faker_api]: http://www.rubydoc.info/github/stympy/faker/master/frames
+[capybara_api]: http://www.rubydoc.info/github/jnicklas/capybara#The_DSL
+[shoulda]: https://github.com/thoughtbot/shoulda-matchers
+[crockford]: http://javascript.crockford.com/code.html
+[jquery_style]: http://contribute.jquery.org/style-guide/js/
+[css_diner]: http://flukeout.github.io/
+[chrome_dev]: https://developer.chrome.com/devtools
+[canvas_book]: http://joshondesign.com/p/books/canvasdeepdive/chapter01.html
+[dom_events]: https://developer.mozilla.org/en-US/docs/Web/Events
+[jquery_fun]: http://jqfundamentals.com/
+[bash_prog]: http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
+[bash_adv]: http://www.tldp.org/LDP/abs/html/
+[canvas_hub]: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API

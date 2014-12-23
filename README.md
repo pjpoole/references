@@ -5,14 +5,24 @@ A repo of subject-collected references that I find useful.
 
 Ultimately, this sort of thing is deeply personal, but maybe this is useful to someone else.
 
+Subhead|Topics
+-------|------
+[General](#general)|Tutorials
+[Languages](#languages)|Ruby, rspec/capybara testing, SQL, JS
+[Web](#web)|HTML, CSS, JQuery, Backbone, HTTP
+[Frameworks](#frameworks)|Rails, Canvas
+[Tools](#tools)|Git, helpful gems, install pages, further readings
+[Style](#style)|Style guides for many languages
+[Environment](#env)|Mostly bash/terminal stuff
+[Practice](#practice)|Fun stuff to get you more handy with tools
+[Snippets](#snippets)|Snippets I've found myself searching for
 
-
-## General
+## <a name="general"></a>General
 * [Tutorialspoint][tutorials_point], a hub for many different resources
 
 
 
-## Languages
+## <a name="languages"></a>Languages
 
 ### Ruby (version 2.1.5)
 * [Ruby Standard Library][ruby_stdlib]
@@ -39,9 +49,18 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [FactoryGirl][factory_girl]
 * [Faker API][faker_api]
 
+### SQL
+* [Postgres][postgres]
+* [SQLite][sqlite]
+  * [SQLite Command Line][sqlite_cli]
+  * [SQL as understood by SQLite][sqlite_lang]
+
+### JavaScript
+* [Javascript Hub][javascript_main] on MDN
+* [Underscore][underscore], utility functions for JS
 
 
-## Web
+## <a name="web"></a>Web
 
 ### HTML
 * [HTML 5 Semantics Tags][html5]
@@ -55,11 +74,6 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [CSS Specificity Calculator][css_specificity]
 * [SASS][sass]
 
-
-### JavaScript
-* [Javascript Hub][javascript_main] on MDN
-* [Underscore][underscore], utility functions for JS
-
 ### JQuery
 * [JQuery API][jquery]
 * [JQuery UI API][jquery_ui]
@@ -69,16 +83,11 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [Backbone annotated source][backbone_source]
 * [Underscore API][underscore_api]
 
-
-### SQL
-* [Use the Index, Luke][index_luke], how to make effective use of SQL indices
-
 ### HTTP
 * [HTTP methods][http_methods]: GET, POST, PATCH, etc.
 
 
-
-## Frameworks
+## <a name="frameworks"></a>Frameworks
 
 ### Rails
 * [Rails API][rails_api]
@@ -91,7 +100,7 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [Intro to Canvas][canvas_book], an excellent book
 
 
-## Tools
+## <a name="tools"></a>Tools
 * [Homebrew][homebrew], painless compilation and updates
 * [rbenv][], ruby environment manager
 * Git
@@ -106,10 +115,7 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
   * [Capybara][capybara]
   * [Shoulda matchers][shoulda]
 * SQL
-  * [Postgres][postgres]
-  * [SQLite][sqlite]
-    * [SQLite Command Line][sqlite_cli]
-    * [SQL as understood by SQLite][sqlite_lang]
+  * [Use the Index, Luke][index_luke], how to make effective use of SQL indices
 * Rails
   * [Foreigner][foreigner], for adding foreign key constraints to rails
   * [Draper][draper], for decorating model objects
@@ -121,19 +127,19 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 * [Chrome dev tools][chrome_dev]
 
 
-
-
-## Style
+## <a name="style"></a>Style
 * [Ruby style][ruby_style]
 * [Better specs with Rspec][better_spec]
 * [How I write SQL][sql_style]
 * Rails conventions: model, view: singular; database, controller: plural
 * [Crockford JavaScript][crockford]
 * [JQuery Style Guide][jquery_style]
+* [Github Markdown][github_markdown]
+* [Advanced Github Markdown][github_advanced]
 
 
 
-## Environment
+## <a name="env"></a>Environment
 
 ### Shell
 * [readline][readline]
@@ -143,7 +149,7 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 
 
 
-## Practice
+## <a name="practice"></a>Practice
 
 ### General/Math
 * [Project Euler][project_euler]
@@ -166,7 +172,7 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 
 
 
-## Snippets
+## <a name="snippets"></a>Snippets
 * Git reset authorship:  
 `git filter-branch -f --env-filter "GIT_AUTHOR_NAME='your_full_name'; GIT_AUTHOR_EMAIL='your_email'; GIT_COMMITTER_NAME='your_full_name'; GIT_COMMITTER_EMAIL='your_email';" HEAD`
 * create new rails project:
@@ -256,3 +262,5 @@ Ultimately, this sort of thing is deeply personal, but maybe this is useful to s
 [bash_prog]: http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
 [bash_adv]: http://www.tldp.org/LDP/abs/html/
 [canvas_hub]: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+[github_markdown]: https://help.github.com/articles/github-flavored-markdown/
+[github_advanced]: https://guides.github.com/features/mastering-markdown/
